@@ -1,0 +1,6 @@
+@socset_HostAddress = http://localhost:5032
+
+GET {{socset_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
