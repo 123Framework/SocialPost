@@ -1,0 +1,10 @@
+﻿@model socset.ViewModels.LoginVM
+
+<h2>Login</h2>
+<form asp-for="Login" method="post">
+    <label>Email</label>
+    <input asp-for="Email" class="form-control"/>
+    <label>Password</label>
+    <input type="password" type="password" class="form-control"/>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
